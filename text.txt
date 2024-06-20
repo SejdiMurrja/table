@@ -1,0 +1,24 @@
+Ne html krijoj nje tabele  me id tabela për stilizim me js ku thead përmban rreshtin e header-it të tabelës
+tr eshte per cdo rresht ne header-in e tabelës dhe th vendos kokat e kolonave per secilen karakteristike
+tableBody sherben per rreshtat e te dhenave qe do te bej ne js
+krijoj nje div qe vepron si modal dhe nje class per stilizimin dhe permbajtjen e te dhenave me 2 butona 
+si Mbyll, regjistro dhe formen me te gjitha inputet
+krijoj dhe butonin Shto klient i cili kur klikohet la lidhje me js
+
+Ne CSS krijoj stilizime per cdo element te krijuar ne html
+
+
+Ne JS siguroj qe gjithe kodi do te ekzekutohet dhe marr elementet e Dom-it qe do perdor dhe krijoj array me objekte
+Me editingRow bej idendifikimin e rreshtit qe po editohet ose null nqs nuk eshte duke edituar asnje rresht
+renderTable ploteson tBody me te dhenat nga subscriptions' dhe krijoj rreshta per cdo objekt qe regjistrohet
+openForm dhe closeForm e perdor per te shtuar ose edituar klient dhe fshire duke i kthyey ne null editingRow
+saveSubscription e perdor per te menaxhuar formen te dhenat e klienteve te rinj ose ndryshon te dhenat qe jane me 
+pare ne tabele dhe mbyll formen 
+editSubscription cakton rrshtin qe editohet dhe hap rreshtin me te dhenat per ndryshim
+deleteSubscription fshin klientet e regjistruar nga tabela
+bej te mundur qe kur klikoj te hap dhe mbyll formen ose fshit te dhenat me addEventListener dhe shtoj
+window qe te mbyll formen kur click jasht saj
+Me tableBody menaxhon fshirjen dhe editimet e te dhenave kur klikohen editBtn elseif deleteBtn
+bej te mudur te shtoj te dhenat te subscriptionForm kur regjistrohen
+shfaqjen e te dhenave te shtuara e bej me renderTable() pas cdo ndryshimi qe mund te behet
+
